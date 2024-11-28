@@ -1,12 +1,12 @@
 const cards = document.querySelectorAll('.card');
 const container = document.querySelector('.container');
 
-container.addEventListener('scroll', () => {
+function activeCard() {
   const containerRect = container.getBoundingClientRect();
   const containerCenter = containerRect.top + containerRect.height / 2;
 
   let closestCard = null;
-  let closestDistance = Infinity;
+  let closestDistance = 300;
 
   cards.forEach(card => {
     const cardRect = card.getBoundingClientRect();
@@ -24,4 +24,10 @@ container.addEventListener('scroll', () => {
   if (closestCard) {
     closestCard.classList.add('active');
   }
+}
+
+container.addEventListener('scroll', () => {
+  activeCard()
 });
+
+activeCard()
