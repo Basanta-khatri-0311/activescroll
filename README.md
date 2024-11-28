@@ -31,7 +31,7 @@ The JavaScript file containing the logic to detect the center card and apply the
 # README.md 
 This file containing setup instructions, technology choices, and Future improvements.
 
-### Technology Choices and Rationale
+# Technology Choices and Rationale
 
 #### HTML:
 - Used for structuring the content. It's a simple structure to display a container with cards.
@@ -48,7 +48,7 @@ This file containing setup instructions, technology choices, and Future improvem
 
 - **Event Listeners**: Used for detecting the scroll events and updating the active card in real-time.
 
-### Known Limitations/Trade-offs
+# Known Limitations/Trade-offs
 
 #### Performance:
 - With a large number of cards or a high-density layout, performance may degrade on lower-end devices due to the continuous re-calculations of card positions. Optimizing the scroll logic for better performance (like debouncing scroll events) would be necessary for larger datasets.
