@@ -16,7 +16,7 @@ To run this project locally, you need the following installed:
    ```bash
    git clone https://github.com/Basanta-khatri-0311/vrit-task-A.git
 
-   cd infinite-card-scrolling ```
+   cd infinite-card-scrolling 
 
 ### File Structure 
 
