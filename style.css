@@ -1,0 +1,108 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #8B6842, #E56A89, #A64BB0);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner{
+  width: 100%;
+  display: flex;
+}
+
+.card .circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.line {
+  width: 70%;
+  height: 10px;
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.5);
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(90deg, #8B6842, #E56A89, #A64BB0);
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2;
+  grid-auto-rows: auto;
+}
+.card .circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.line {
+  width: 70%;
+  height: 10px;
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.5);
+}
