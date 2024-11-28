@@ -29,13 +29,8 @@ body {
   margin-bottom: 20px;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   transition: transform,opacity 0.5s, 0.5s ;
   transform: scale(0.9);
   opacity: 0.5;
