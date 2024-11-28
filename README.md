@@ -18,17 +18,17 @@ To run this project locally, you need the following installed:
 
    cd infinite-card-scrolling 
 
-### File Structure 
+# File Structure 
 
-# index.html
+## index.html
 The main HTML file containing the structure of the page.
 
-# styles.css       
+## styles.css       
 The CSS file defining the layout, styling, and scroll effects.
 
-# script.js        
+## script.js        
 The JavaScript file containing the logic to detect the center card and apply the "active" effect.
-# README.md 
+## README.md 
 This file containing setup instructions, technology choices, and Future improvements.
 
 # Technology Choices and Rationale
@@ -63,7 +63,7 @@ This file containing setup instructions, technology choices, and Future improvem
 - The project currently lacks accessibility features, such as keyboard navigation or screen reader support, which would be important for making the website fully inclusive.
 
 
-### Future Improvements
+# Future Improvements
 
 #### True Infinite Loop:
 - Enhance the scroll logic to replicate and cycle through cards, creating a truly infinite loop experience. This can be done by dynamically adding and removing cards as the user scrolls.
