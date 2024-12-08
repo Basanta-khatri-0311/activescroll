@@ -119,27 +119,45 @@
 
 // console.log(`The Number ${checkingNumber} is ${result}`)
 
-
-
 // Write a function called addNumbers(a, b) that takes two numbers as arguments and returns their sum.
 
-function addNumbers(a, b) {
-   const sum = a + b
-  console.log("The sum of the numbers are " + sum);
-}
+// function addNumbers(a, b) {
+//    const sum = a + b
+//   console.log("The sum of the numbers are " + sum);
+// }
 
-addNumbers(9,5)
-
+// addNumbers(9,5)
 
 // Write a function called isEven(num) that checks if a number is even and returns true if it is, otherwise returns false.
 
-function isEven (num) {
-    if(num%2 === 0) {
-        return true;
-    }else{
-        return false;
-    }
-}
+// function isEven (num) {
+//     if(num%2 === 0) {
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
 
-const result = (isEven(89)) ? "The number is even": "The number is odd"
-console.log(result)
+// const result = (isEven(89)) ? "The number is even": "The number is odd"
+// console.log(result)
+
+// ------------------------------------------Functions-------------------------------------------------------//
+
+// Write a function expression to multiply two numbers.
+
+const multiplication = function (a, b) {
+  return `The multiplication of ${a} and ${b} is ${a * b} `;
+};
+console.log(multiplication(4, 5));
+
+// Convert the isEven function you wrote earlier into an arrow function.
+
+const isEven = (num) => num % 2;
+
+console.log(isEven(80) ? "Odd" : "Even");
+
+// Write a function to convert a temperature from Celsius to Fahrenheit:
+// Formula: F = (C × 9/5) + 32
+
+const convertToFarnheit = (c) => (c * 9) / 5 + 32;
+console.log(convertToFarnheit(40));
